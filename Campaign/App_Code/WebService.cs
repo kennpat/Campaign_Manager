@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 
+
 /// <summary>
 /// Summary description for WebService
 /// </summary>
@@ -11,17 +12,20 @@ using System.Web.Services;
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 [System.Web.Script.Services.ScriptService]
 
-public class WebService : System.Web.Services.WebService {
+public class WebService : System.Web.Services.WebService
+{
 
-    public WebService () {
+    public WebService()
+    {
 
         //Uncomment the following line if using designed components 
         //InitializeComponent(); 
     }
 
     [WebMethod]
-    public string HelloWorld() {
+    public string HelloWorld()
+    {
         return "Hello World";
     }
-    
+
 }
