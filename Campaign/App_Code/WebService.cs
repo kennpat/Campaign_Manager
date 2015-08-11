@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Data.SqlClient;
 
+
 /// <summary>
 /// Summary description for WebService
 /// </summary>
@@ -38,6 +39,7 @@ public class WebService : System.Web.Services.WebService
     SqlConnection SqlConn = new SqlConnection(ConnString);
 
     [WebMethod]
+
     public string SaveCampaign(Campaign campaign)
     {
 
@@ -81,5 +83,4 @@ public class WebService : System.Web.Services.WebService
     }
 
 }
-
 
