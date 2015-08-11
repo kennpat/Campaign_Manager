@@ -1,0 +1,30 @@
+﻿Merge branch 'master' into WebService
+
+Conflicts:
+	Campaign/App_Code/WebService.cs
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch WebService
+# Your branch is up-to-date with 'origin/WebService'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   Campaign/About.aspx
+#	modified:   Campaign/App_Code/WebService.cs
+#	new file:   Campaign/CampaignDetails.aspx
+#	new file:   Campaign/CampaignDetails.aspx.cs
+#	new file:   Campaign/Campaign_new.aspx
+#	new file:   Campaign/Campaign_new.aspx.cs
+#	new file:   Campaign/img/header.jpg
+#	new file:   Campaign/img/logo.jpg
+#	new file:   Campaign/style.css
+#
+
